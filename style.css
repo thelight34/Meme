@@ -21,6 +21,7 @@
   font-size:32px;
 }
 .btn-container{
+  height:10%;
   display: flex;
   flex-direction:row;
   justify-content: space-around;
@@ -37,6 +38,10 @@ button:active{
 
 .txt{
   text-align: center;
+  height:20%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 audio{
@@ -45,6 +50,9 @@ audio{
 
 .music-player{
   display:flex;
-  margin-top:10em;
+  margin-top:5em;
   justify-content: center;
+}
+.music-player > audio{
+  width:20em;
 }
